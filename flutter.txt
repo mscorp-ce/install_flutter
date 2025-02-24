@@ -1,0 +1,21 @@
+1. instalar o jdk
+  https://www.azul.com/downloads/?package=jdk#zulu
+2. intalar o android studio
+  https://developer.android.com/studio?hl=pt-br
+3. Abir android strudio
+  3.1 More Actions/SDK Manager/SDK Tools/ marque a opção: Android SDK Command Line aperte mno botão "apply"
+  3.2 baixe o Visual Studio 2022 => https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false
+  3.3 instale o VisualStudioSetup
+4. https://docs.flutter.dev/get-started/install/windows/mobile#download-then-install-flutter
+  4.1 download do flutter_windows_3.xx.x-stable
+  4.2 instale o vs code => https://code.visualstudio.com/docs/?dv=win64user
+  4.3 adicione a estensão do flutter np vs code => https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+  4.4 click em install
+5. criar um dir flutter no dir a seu gosto, eu usei o D:
+  5.1 extrair o flutter_windows_3.xx.x-stable para o diretorio acima, no meu caso: D:\flutter\src
+  5.2 abra o cmd, dendo do cmd execute o comando cd D:\flutter\src\flutter\bin
+  5.3 adicione o diretório D:\flutter\src\flutter\bin para o path do sistema
+  5.4 execute o comando flutter doctor, verificque o que esta faltando para ser instalado/configurado
+  5.5 essa opção deve esta em amrarelo, precisa ser intalado: Android toolchain - develop for Android devices (Android SDK version xx.x.x)
+  5.6 execute no cmd o seguinte comando: flutter doctor --android-licenses
+  5.7 aperte "y" em todas as opções
